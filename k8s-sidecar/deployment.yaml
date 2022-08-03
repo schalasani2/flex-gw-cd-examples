@@ -70,7 +70,7 @@ spec:
       volumes:
       - name: config
         secret:
-          secretName: <your-registration-uuid>
+          secretName: ccb18d0b-d0ce-44aa-8f8b-683849c45629 
       - name: configmap  
         configMap:
           name: jsonplaceholder-sidecar-config
